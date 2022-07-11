@@ -1,0 +1,19 @@
+[package]
+name = "ohx"
+version = "0.1.0"
+edition = "2021"
+authors = ["Miguel Young de la Sota <mcyoung@mit.edu>"]
+repository = "https://github.com/mcy/0x"
+
+keywords = ["cli", "terminal", "binary", "tool"]
+license = "Apache-2.0"
+description = "Like xxd, but colorful!"
+
+[dependencies]
+argh = "0.1.7"
+colorous = "1.0.6"
+palette = "0.6.0"
+
+[[bin]]
+name = "0x"
+path = "src/main.rs"
